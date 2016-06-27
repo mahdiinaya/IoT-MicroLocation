@@ -14,8 +14,13 @@ import java.sql.*;
 
 
 
-import microlocation.controllers.cloudant;
-import microlocation.controllers.currentRoomsIbeacons;
+
+//import microlocation.controllers.cloudant;
+//import microlocation.controllers.currentRoomsIbeacons;
+// cloudant.java and currentRoomsIbeacons.java were prototypes for interacting with the cloudant database.
+// The idea is to interact with cloudant database (cloudant.java), and interactively pull iBeacon information
+// depending on the room we are in. 
+
 
 public class BeaconAuthenticator 
 {
@@ -72,7 +77,7 @@ public class BeaconAuthenticator
     	}
 	}
 	
-	public void authenticateBeaconCloudant(String uuid, String major, String minor)
+/*	public void authenticateBeaconCloudant(String uuid, String major, String minor)
 	//to authenticate beacons from database and then return
 	{
 		
@@ -104,7 +109,7 @@ public class BeaconAuthenticator
     		
     		
     		}
-    	}
+    	}*/
 }
     	/*
     	try
